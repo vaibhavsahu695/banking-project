@@ -17,6 +17,8 @@ System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\Browser\\ch
 		
 		 driver =new ChromeDriver();
 		}
+		
+		
 		else if(browser.equals("firefox"))
 		{
 			System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\Browser\\geckodriver.exe");
